@@ -1,3 +1,4 @@
+
 function getElementWidth(content, padding, border) {
         // Перетворюю значення в числа, відкидаю "px" та враховую box-sizing: border-box
         const contentWidth = parseFloat(content);

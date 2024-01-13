@@ -1,5 +1,5 @@
 function getShippingMessage (country, price, deliveryFee){
-    //створюю сталу ціну на товар і доставку.
+    //створюю сталу ціни на товар і доставку.
 const totalPrice = price + deliveryFee;
 //створюю повернення повідомлення з даними про замовлення
 return `Shipping to ${country} will cost ${totalPrice} credits`;
